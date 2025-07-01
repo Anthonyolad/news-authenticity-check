@@ -3,4 +3,3 @@ scikit-learn
 pandas
 nltk
 joblib
-python==3.13
