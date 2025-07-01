@@ -2,6 +2,5 @@ streamlit
 scikit-learn
 pandas
 nltk
-re
 joblib
 python==3.13
