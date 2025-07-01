@@ -20,10 +20,10 @@ st.markdown("*Min: 300 words*")
 st.caption(f"You have entered {word_count}")
 
 # Minimum word count intake
-disable_button = word_count < 300
+#disable_button = word_count < 300
 
 
-if st.button("Check News", disabled=disable_button):
+if st.button("Check News"):     # or st.button("Check News, disabled=disable_button) to disable button if word count not up to 300
     if len(news_input.strip().split()) < 300:
         st.warning("Please enter a minimum of 300 words")
     else:
