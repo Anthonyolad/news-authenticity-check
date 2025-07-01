@@ -5,8 +5,8 @@ from clean_text_func import clean_text
 
 
 # Load saved model and vectorizer
-model = joblib.load(r"C:\Users\USER\Desktop\fake_news_detector\fake_news_model.pkl")
-vectorizer = joblib.load(r"C:\Users\USER\Desktop\fake_news_detector\vectorizer.pkl")
+model = joblib.load("fake_news_model.pkl")
+vectorizer = joblib.load("vectorizer.pkl")
 
 
 # Streamlit UI
