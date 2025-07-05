@@ -24,7 +24,7 @@ st.caption(f"You have entered {word_count}")
 
 
 if st.button("Check News"):     # or st.button("Check News, disabled=disable_button) to disable button if word count not up to 300
-    if len(news_input.strip().split()) < 300:
+    if word_count < 300:
         st.warning("Please enter a minimum of 300 words")
     else:
         cleaned = clean_text(news_input)
